@@ -1,4 +1,4 @@
-// Nombres pronunciables y expresivos
+// NOMBRES PRONUNCIABLES Y EXPRESIVOS
 
 const numberOfUnits = 53;
 const tax = 0.15;
