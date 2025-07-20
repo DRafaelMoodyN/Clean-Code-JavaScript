@@ -22,4 +22,6 @@ const totalOfCars = 3
 // Los nombres delas funciones deben representar acciones, usando el verbo que representa la accion
 const createUser = () => { }
 const updateUser = () => { }
-const sendEmail = () => { } 
+const sendEmail = () => { }
+
+const getBooksByUrl = () => { }
