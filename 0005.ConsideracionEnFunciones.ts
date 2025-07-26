@@ -30,14 +30,25 @@ interface IMovie {
 }
 
 function createMovie(movie: IMovie): void {
-
 }
 
 function createActor(fullName: string, birthDate: Date): void {
-
 }
 
 // Otras recomendaciones
 
 // 1. Simplicidad es fundamental
 // 2. Funciones de tamaño reducido
+// 3. Funciones de una sola linia sin causar una complejidad
+// 4. Menos de 20 de lineas de codigo
+// 5. Evita el uso del else
+// 6. Prioriza el us de la condicion ternaria
+
+const getPayAmount = ({ isDead = false, isSeparted = true, isRetired = false }): number => {
+    if (isDead) return 1500
+
+    if (isSeparted) return 2500
+
+    return isRetired ? 3000 : 400
+    // 15
+}
